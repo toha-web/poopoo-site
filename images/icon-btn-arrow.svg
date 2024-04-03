@@ -1,0 +1,26 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="path1" d="M -9 -10 V -9 H -2.7 L -11 -0.7 L -10.3 0 L -2 -8.3 V -2 H -1 V -10 Z" fill="#1D201F">
+<animateTransform
+      attributeName="transform"
+      id="anim1"
+      type="translate"
+      calcMode="spline"
+      values="0, 34; 17, 17; 17, 17; 34, 0"
+      keyTimes="0; 0.2; 0.8; 1"
+      keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1"
+      begin="0s;anim2.begin+1.6s"
+      dur="2s" />
+</path>
+<path id="path2" d="M -9 -10 V -9 H -2.7 L -11 -0.7 L -10.3 0 L -2 -8.3 V -2 H -1 V -10 Z" fill="#1D201F">
+<animateTransform
+      attributeName="transform"
+      id="anim2"
+      type="translate"
+      calcMode="spline"
+      values="0, 34; 17, 17; 17, 17; 34, 0"
+      keyTimes="0; 0.2; 0.8; 1"
+      keySplines="0 0 1 1; 0 0 1 1; 0 0 1 1"
+      begin="anim1.begin+1.6s"
+      dur="2s" />
+</path>
+</svg>
